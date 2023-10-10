@@ -18,10 +18,6 @@ body {
     position: relative;
 }
 
-.container .pintura:hover {
-    transform: scale(1.1);
-    transition: 0.1 ease-in-out
-}
 .pintura img {
     border: 1px solid var(--border-color);
     width: 335px;
@@ -45,8 +41,14 @@ body {
     left: 20px;
 }
 
-@media(max-width:1440px) {
+.container .pintura:hover {
+    transform: scale(1.1);
+    transition: 0.1 ease-in-out
+}
 
+
+@media(max-width:1440px) {
+    
     .container {
         max-width: 900px;
         margin: 30px;
