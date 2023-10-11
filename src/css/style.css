@@ -21,7 +21,7 @@ body {
 .pintura img {
     border: 1px solid var(--border-color);
     width: 335px;
-    height: 432px;
+    height: 430px;
 }
 
 .pintura .obra {
@@ -43,17 +43,19 @@ body {
 
 .container .pintura:hover {
     transform: scale(1.1);
-    transition: 0.1 ease-in-out
+    transition: 1.0 ease-in-out
 }
 
 
 @media(max-width:1440px) {
     
     .container {
-        max-width: 900px;
+        max-width: 1000px;
         margin: 30px;
     }
+
+    .pintura img {
+        width: 400px;
+        height: 600px;  
+    }
 }
-
-
-
